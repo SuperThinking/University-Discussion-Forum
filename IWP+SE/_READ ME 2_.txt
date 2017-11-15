@@ -1,0 +1,3 @@
+This Project is made by VISHAL DHAWAN and SHREYANSH SINGH.
+TO RUN THIS ON YOUR DEVICE, YOU'LL HAVE TO CHANGE THE IP IN MANY OF THE PHP CODES.
+You can help in rectifying some of the errors in the project.
