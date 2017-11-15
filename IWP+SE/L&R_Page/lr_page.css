@@ -1,0 +1,62 @@
+.parallax {
+    
+    background-image: url("student.jpg");
+
+    min-width: 600px;
+    min-height: 680px; 
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(1px);
+} 
+
+.login input[type=button]{
+	width: 100%;
+	height: 100px;
+	background: "par.jpg";
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 75px;
+	font-weight: 400;
+	
+	margin-top: 10px;
+	opacity: 0.5;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.5;
+	color: Blue;
+}
+
+.login input[type=button]:active{
+	opacity: 0.1;
+}
+
+.header{
+	position: absolute;
+	top: calc(20% - 35px);
+	left: calc(63% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #EFF1F4;
+	font-family: 'Exo', sans-serif;
+	font-size: 60px;
+	font-weight: 200;
+}
+
+.header span{
+	color: #306BC9;
+}
+body{
+max-width: 100%;
+    overflow-x: hidden;
+}

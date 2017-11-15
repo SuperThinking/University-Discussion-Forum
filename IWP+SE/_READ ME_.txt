@@ -1,0 +1,2 @@
+*******You will have to change the ip of each file to use.******
+OPEN L&R folder and L&R.html file to start.
