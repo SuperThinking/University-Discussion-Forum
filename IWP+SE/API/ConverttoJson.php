@@ -16,7 +16,7 @@ $dbname = 'vreg';
   }
 
 //Fetch 3 rows from actor table
-  $result = $dblink->query("SELECT * FROM question ORDER BY DATE DESC");
+  $result = $dblink->query("SELECT * FROM question ORDER BY DATE DESC, Q_id DESC");
 
 //Initialize array variable
   $dbdata = array();

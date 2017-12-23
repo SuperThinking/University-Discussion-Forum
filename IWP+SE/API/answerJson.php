@@ -15,16 +15,14 @@ $dbname = 'vreg';
      exit();
   }
 
-//Fetch 3 rows from actor table
   $result = $dblink->query("SELECT * FROM answer");
 
-//Initialize array variable
   $dbdata = array();
-
+  $x=0;
 //Fetch into associative array
   while ( $row = $result->fetch_assoc())  {
 	$dbdata[]=$row;
-  }
+	}
 
 
 
